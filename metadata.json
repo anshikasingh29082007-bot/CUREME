@@ -1,0 +1,8 @@
+{
+  "name": "CureMe - Home Nursing Care Services",
+  "description": "Professional, compassionate home nursing care services right at your doorstep. Verified nurses for elderly care, post-surgery assistance, medication, wound dressing, and 24/7 care.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
