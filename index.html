@@ -19,8 +19,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+    <!-- Stylesheet: Relative path for 100% GitHub Pages compatibility -->
+    <link rel="stylesheet" href="./style.css" />
 
     <!-- Structured Data (Schema.org) for Medical Business -->
     <script type="application/ld+json">
@@ -69,6 +69,8 @@
           <a href="#services" class="nav-link">Our Services</a>
           <a href="#why-us" class="nav-link">Why CureMe</a>
           <a href="#how-it-works" class="nav-link">How It Works</a>
+          <a href="#payments" class="nav-link">Payment Options</a>
+          <a href="#faq" class="nav-link">FAQ</a>
           <a href="#contact" class="nav-link">Contact Us</a>
         </nav>
 
@@ -112,11 +114,11 @@
         <div class="hero-grid">
           <!-- Left Column: Copy & Actions -->
           <div class="hero-content">
-            <div class="hero-badge-clean">
+            <div class="section-kicker">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
               </svg>
-              <span>Care That Comes Home</span>
+              <span>Professional Care. Right at Your Doorstep.</span>
             </div>
             <h1 class="hero-title">
               Quality Nursing Care, Right at <span>Your Doorstep.</span>
@@ -141,7 +143,7 @@
           <div class="hero-image-col">
             <div class="hero-image-wrapper">
               <img 
-                src="/src/assets/images/hero_nurse_elderly_care_1793334928931.jpg" 
+                src="./assets/images/hero_nurse_elderly_care_1793334928931.jpg" 
                 alt="Compassionate licensed home healthcare nurse caring for elderly patient in a cozy home environment" 
                 referrerpolicy="no-referrer"
                 loading="eager"
@@ -156,7 +158,7 @@
               </div>
               <div class="floating-text">
                 <strong>100% Verified Nurses</strong>
-                <span>Certified qualifications & police background checks</span>
+                <span>Certified qualifications & background checks</span>
               </div>
             </div>
           </div>
@@ -224,13 +226,13 @@
     <!-- ==========================================================================
          About CureMe Section
          ========================================================================== -->
-    <section class="section section-muted" id="about">
+    <section class="section section-cream" id="about">
       <div class="container">
         <div class="about-grid">
           <!-- Visual Column -->
           <div class="about-image-wrap">
             <img 
-              src="/src/assets/images/about_home_healthcare_1793334929435.jpg" 
+              src="./assets/images/about_home_healthcare_1793334929435.jpg" 
               alt="CureMe home nurse in medical scrubs consulting senior couple at home" 
               referrerpolicy="no-referrer"
               loading="lazy"
@@ -243,7 +245,7 @@
 
           <!-- Content Column -->
           <div class="about-text-content">
-            <span class="section-kicker">About CureMe</span>
+            <div class="section-kicker">About CureMe</div>
             <h2 class="section-title">Healthcare That Feels Like Home</h2>
             <p class="section-desc">
               CureMe connects families with qualified, compassionate nursing professionals for convenient home-based healthcare. We bridge the gap between hospital discharge and full recovery, making continuous medical attention accessible without the stress and expense of prolonged hospital stays.
@@ -267,7 +269,7 @@
                 <div class="pillar-icon-box">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                     <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/>
-                    <circle cx="12" cy="12" r="3"/>
+                    <circle cx="12" cy="3" r="3"/>
                   </svg>
                 </div>
                 <div class="pillar-content">
@@ -296,10 +298,10 @@
     <!-- ==========================================================================
          Our Nursing Services (8 Services)
          ========================================================================== -->
-    <section class="section" id="services">
+    <section class="section section-white" id="services">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">Comprehensive Healthcare</span>
+          <div class="section-kicker">Comprehensive Healthcare</div>
           <h2 class="section-title">Our Nursing Services</h2>
           <p class="section-desc">
             From specialized clinical post-op care to gentle routine assistance for seniors, our certified nurses provide comprehensive healthcare support tailored to your family's needs.
@@ -342,7 +344,7 @@
           <!-- 2. Patient Care at Home -->
           <div class="service-card">
             <div class="service-card-media">
-              <span class="service-badge">Recovery</span>
+              <span class="service-badge">Recovery Support</span>
               <div class="service-card-illustration">
                 <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
@@ -374,7 +376,7 @@
             <div class="service-card-media">
               <span class="service-badge">Post-Op Clinical</span>
               <img 
-                src="/src/assets/images/service_post_surgery_care_1793334930639.jpg" 
+                src="./assets/images/service_post_surgery_care_1793334930639.jpg" 
                 alt="Nurse supporting patient recovering from surgery" 
                 referrerpolicy="no-referrer"
                 loading="lazy"
@@ -382,7 +384,7 @@
             </div>
             <div class="service-card-body">
               <h3 class="service-card-title">Post-Surgery Care</h3>
-              <p class="service-card-desc">Nursing assistance during post-operative recovery, catheter hygiene, drain monitoring, and mobility encouragement.</p>
+              <p class="service-card-desc">Nursing assistance during post-operative recovery, catheter hygiene, drain monitoring, and gentle mobility encouragement.</p>
               <ul class="service-features-list">
                 <li>
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
@@ -499,7 +501,7 @@
             <div class="service-card-media">
               <span class="service-badge">Postnatal Care</span>
               <img 
-                src="/src/assets/images/service_mother_baby_care_1793334929458.jpg" 
+                src="./assets/images/service_mother_baby_care_1793334929458.jpg" 
                 alt="Postnatal home nurse assisting mother with newborn infant" 
                 referrerpolicy="no-referrer"
                 loading="lazy"
@@ -559,10 +561,10 @@
     <!-- ==========================================================================
          Why Choose CureMe?
          ========================================================================== -->
-    <section class="section section-muted" id="why-us">
+    <section class="section section-cream" id="why-us">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">The CureMe Advantage</span>
+          <div class="section-kicker">The CureMe Advantage</div>
           <h2 class="section-title">Why Choose CureMe?</h2>
           <p class="section-desc">
             We provide a transparent, organized alternative to unverified agency arrangements, ensuring compassionate, high-caliber care in the sanctuary of your home.
@@ -691,10 +693,10 @@
     <!-- ==========================================================================
          How CureMe Works (4 Steps)
          ========================================================================== -->
-    <section class="section" id="how-it-works">
+    <section class="section section-white" id="how-it-works">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">Simple 4-Step Process</span>
+          <div class="section-kicker">Simple 4-Step Process</div>
           <h2 class="section-title">How CureMe Works</h2>
           <p class="section-desc">
             Getting qualified home nursing care is straightforward, secure, and coordinated from start to finish.
@@ -764,7 +766,7 @@
     <section class="section booking-section-wrapper" id="booking">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">Find a Nurse</span>
+          <div class="section-kicker">Find a Nurse</div>
           <h2 class="section-title">Book Professional Nursing Care</h2>
           <p class="section-desc">
             Submit your details below to request a nurse. Our care coordinator will contact you to verify requirements and confirm availability.
@@ -788,7 +790,7 @@
 
             <form id="bookingForm" novalidate>
               <!-- Contact Information Group -->
-              <h3 style="font-size: 1.15rem; margin-bottom: 16px; color: var(--text-main);">1. Contact Person Details</h3>
+              <h3 style="font-size: 1.15rem; margin-bottom: 16px; color: var(--dark-green);">1. Contact Person Details</h3>
               <div class="form-group-grid">
                 <div class="form-group">
                   <label class="form-label" for="customerName">
@@ -816,7 +818,7 @@
               </div>
 
               <!-- Patient Information Group -->
-              <h3 style="font-size: 1.15rem; margin-top: 28px; margin-bottom: 16px; color: var(--text-main);">2. Patient Details</h3>
+              <h3 style="font-size: 1.15rem; margin-top: 28px; margin-bottom: 16px; color: var(--dark-green);">2. Patient Details</h3>
               <div class="form-group-grid">
                 <div class="form-group">
                   <label class="form-label" for="patientName">
@@ -869,7 +871,7 @@
               </div>
 
               <!-- Schedule & Location Group -->
-              <h3 style="font-size: 1.15rem; margin-top: 28px; margin-bottom: 16px; color: var(--text-main);">3. Schedule &amp; Address</h3>
+              <h3 style="font-size: 1.15rem; margin-top: 28px; margin-bottom: 16px; color: var(--dark-green);">3. Schedule &amp; Address</h3>
               <div class="form-group-grid">
                 <div class="form-group">
                   <label class="form-label" for="preferredDate">
@@ -1017,10 +1019,10 @@
     <!-- ==========================================================================
          Payment Options Section
          ========================================================================== -->
-    <section class="section" id="payments">
+    <section class="section section-white" id="payments">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">Payment Methods</span>
+          <div class="section-kicker">Payment Methods</div>
           <h2 class="section-title">Easy and Flexible Payment Options</h2>
           <p class="section-desc">
             We support hassle-free payment choices for every family. Choose your preferred mode during booking with total fee transparency.
@@ -1153,10 +1155,10 @@
     <!-- ==========================================================================
          Customer Testimonials
          ========================================================================== -->
-    <section class="section section-muted" id="testimonials">
+    <section class="section section-cream" id="testimonials">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">Family Experiences</span>
+          <div class="section-kicker">Family Experiences</div>
           <h2 class="section-title">What Families Say About CureMe</h2>
           <p class="section-desc">
             Read experiences from family members who relied on CureMe during crucial health milestones and senior care.
@@ -1224,10 +1226,10 @@
     <!-- ==========================================================================
          Frequently Asked Questions (FAQ Accordion)
          ========================================================================== -->
-    <section class="section" id="faq">
+    <section class="section section-white" id="faq">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">Got Questions?</span>
+          <div class="section-kicker">Got Questions?</div>
           <h2 class="section-title">Frequently Asked Questions</h2>
           <p class="section-desc">
             Answers to common questions about our home nursing process, qualifications, bookings, and policies.
@@ -1343,117 +1345,85 @@
     </section>
 
     <!-- ==========================================================================
-         Contact Us Section
+         Contact Us Section (Separate Attractive Cards)
          ========================================================================== -->
-    <section class="section section-muted" id="contact">
+    <section class="section contact-section-wrapper" id="contact">
       <div class="container">
         <div class="section-header">
-          <span class="section-kicker">Get In Touch</span>
+          <div class="section-kicker">Get In Touch</div>
           <h2 class="section-title">Contact CureMe Team</h2>
           <p class="section-desc">
-            Have a question about our home nursing plans or need a quick consultation? Reach out and we'll be glad to help.
+            Reach out through our direct helpline, WhatsApp, email, or send us a message below. Our care team is ready to assist your family.
           </p>
         </div>
 
-        <div class="contact-layout">
-          <!-- Left: Contact Details & Quick Actions -->
-          <div class="contact-info-col">
-            <div class="contact-details-card">
-              <h3 style="font-size: 1.25rem; color: var(--text-main);">CureMe Home Nursing Services</h3>
-              <p style="font-size: 0.9rem; margin-top: 4px;">Professional healthcare support right at your doorstep.</p>
-
-              <div class="contact-list">
-                <!-- Phone -->
-                <div class="contact-list-item">
-                  <div class="contact-list-icon">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                  </div>
-                  <div class="contact-list-text">
-                    <strong>Phone Support</strong>
-                    <a href="tel:+919876543210">+91 98765 43210</a>
-                  </div>
-                </div>
-
-                <!-- WhatsApp -->
-                <div class="contact-list-item">
-                  <div class="contact-list-icon" style="background-color: #E2F6E9; color: #1E7E34;">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
-                      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
-                    </svg>
-                  </div>
-                  <div class="contact-list-text">
-                    <strong>WhatsApp Support</strong>
-                    <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">+91 98765 43210</a>
-                  </div>
-                </div>
-
-                <!-- Email -->
-                <div class="contact-list-item">
-                  <div class="contact-list-icon">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                  </div>
-                  <div class="contact-list-text">
-                    <strong>Email Address</strong>
-                    <a href="mailto:support@cureme.in">support@cureme.in</a>
-                  </div>
-                </div>
-
-                <!-- Address -->
-                <div class="contact-list-item">
-                  <div class="contact-list-icon">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-                  </div>
-                  <div class="contact-list-text">
-                    <strong>Registered Office</strong>
-                    <p>CureMe Healthcare Hub, 4th Floor, Green Valley Towers, Outer Ring Road, Bengaluru, Karnataka 560103</p>
-                  </div>
-                </div>
-
-                <!-- Hours -->
-                <div class="contact-list-item">
-                  <div class="contact-list-icon">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                  </div>
-                  <div class="contact-list-text">
-                    <strong>Business Hours</strong>
-                    <p>Monday to Sunday: 9:00 AM – 8:00 PM</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Quick Action Buttons -->
-              <div class="contact-actions-bar">
-                <a href="tel:+919876543210" class="btn btn-outline btn-sm">
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                  <span>Click to Call</span>
-                </a>
-                <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm">
-                  <span>Chat on WhatsApp</span>
-                </a>
-                <a href="mailto:support@cureme.in" class="btn btn-secondary btn-sm">
-                  <span>Send Email</span>
-                </a>
-              </div>
+        <!-- 4 Distinct Attractive Cards: Phone, WhatsApp, Email, Registered Office -->
+        <div class="contact-cards-grid">
+          <!-- Card 1: Phone -->
+          <div class="contact-card-box">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             </div>
-
-            <!-- Google Maps Location Placeholder -->
-            <div class="contact-map-placeholder">
-              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--primary-dark)" stroke-width="2" style="margin-bottom: 8px;">
-                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
-                <circle cx="12" cy="10" r="3"/>
-              </svg>
-              <strong style="color: var(--text-main); font-size: 0.95rem;">CureMe Healthcare Hub</strong>
-              <span style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">Outer Ring Road, Bengaluru, Karnataka</span>
-              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="margin-top: 12px; background: #fff;">
-                Open in Google Maps
-              </a>
-            </div>
+            <h3 class="contact-card-title">Phone Helpline</h3>
+            <p class="contact-card-desc">Speak directly with our dedicated care coordination supervisor.</p>
+            <div class="contact-card-value">+91 98765 43210</div>
+            <a href="tel:+919876543210" class="btn btn-outline btn-sm contact-card-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Call Helpline</span>
+            </a>
           </div>
 
-          <!-- Right: Contact Enquiry Form -->
+          <!-- Card 2: WhatsApp -->
+          <div class="contact-card-box wa">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">WhatsApp Support</h3>
+            <p class="contact-card-desc">Chat instantly for nurse availability and booking assistance.</p>
+            <div class="contact-card-value">+91 98765 43210</div>
+            <a href="https://wa.me/919876543210?text=Hello%20CureMe%20Team%2C%20I%20would%20like%20to%20inquire%20about%20Home%20Nursing%20services." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm contact-card-btn">
+              <span>Chat on WhatsApp</span>
+            </a>
+          </div>
+
+          <!-- Card 3: Email -->
+          <div class="contact-card-box">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <h3 class="contact-card-title">Email Inquiries</h3>
+            <p class="contact-card-desc">Send official medical requests or corporate partnership queries.</p>
+            <div class="contact-card-value">support@cureme.in</div>
+            <a href="mailto:support@cureme.in" class="btn btn-secondary btn-sm contact-card-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Write to Us</span>
+            </a>
+          </div>
+
+          <!-- Card 4: Registered Office -->
+          <div class="contact-card-box">
+            <div class="contact-card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3 class="contact-card-title">Registered Office</h3>
+            <p class="contact-card-desc">Official Business Address (editable placeholder):</p>
+            <div class="contact-card-value" style="font-size: 0.88rem; font-weight: 500; line-height: 1.45;">
+              CureMe Healthcare Hub, 4th Floor, Green Valley Towers, Outer Ring Road, Bengaluru, Karnataka 560103
+            </div>
+            <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm contact-card-btn">
+              <span>View Map</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Secondary 2-Column: Message Form & Hours -->
+        <div class="contact-secondary-layout">
+          <!-- Left: Contact Form -->
           <div class="contact-form-card">
-            <h3 style="font-size: 1.35rem; margin-bottom: 8px; color: var(--text-main);">Send Us a Message</h3>
-            <p style="font-size: 0.9rem; margin-bottom: 24px; color: var(--text-muted);">
+            <h3 style="font-size: 1.35rem; margin-bottom: 8px; color: var(--dark-green);">Send Us a Message</h3>
+            <p style="font-size: 0.9rem; margin-bottom: 24px; color: var(--text-secondary);">
               Fill out this form and our support team will get back to you within 2 working hours.
             </p>
 
@@ -1475,7 +1445,7 @@
 
               <div class="form-group" style="margin-bottom: 24px;">
                 <label class="form-label" for="contactMessage">Your Message / Query <span class="req">*</span></label>
-                <textarea id="contactMessage" class="form-control" rows="4" placeholder="How can we assist your family?" required></textarea>
+                <textarea id="contactMessage" class="form-control" rows="4" placeholder="How can our home nurses assist your family?" required></textarea>
               </div>
 
               <button type="submit" class="btn btn-primary" style="width: 100%;">
@@ -1483,6 +1453,40 @@
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
               </button>
             </form>
+          </div>
+
+          <!-- Right: Hours & Service Hub -->
+          <div class="contact-hours-map-card">
+            <div>
+              <h3 style="font-size: 1.35rem; margin-bottom: 8px; color: var(--dark-green);">Operating Hours &amp; Coverage</h3>
+              <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
+                Our home nurses operate on flexible schedules throughout the city. The support desk is available every day.
+              </p>
+            </div>
+
+            <div style="background-color: var(--light-mint-soft); border-radius: var(--radius-md); padding: 20px; border: 1px solid var(--border-subtle);">
+              <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--dark-green)" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <strong style="color: var(--dark-green); font-size: 0.95rem;">Coordination Desk Hours</strong>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0;">
+                Monday to Sunday: <strong>9:00 AM – 8:00 PM</strong><br>
+                For booked 24/7 nursing cases: round-the-clock supervisor on call.
+              </p>
+            </div>
+
+            <!-- Map Location Card -->
+            <div class="contact-map-placeholder">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--dark-green)" stroke-width="2" style="margin-bottom: 8px;">
+                <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <strong style="color: var(--dark-green); font-size: 0.95rem;">CureMe Healthcare Hub</strong>
+              <span style="font-size: 0.825rem; color: var(--text-muted); margin-top: 4px;">Outer Ring Road, Bengaluru, Karnataka</span>
+              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm" style="margin-top: 12px; background: #fff;">
+                Open in Google Maps
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -1497,18 +1501,18 @@
           <!-- Col 1: Brand Info -->
           <div class="footer-brand">
             <a href="#home" class="brand-link" style="color: #fff;">
-              <div class="brand-symbol" aria-hidden="true" style="background: var(--primary);">
+              <div class="brand-symbol" aria-hidden="true" style="background: var(--sage-green);">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                   <path d="M12 7v6m-3-3h6" stroke="white" stroke-width="2.2"/>
                 </svg>
               </div>
-              <span class="brand-name">Cure<span style="color: var(--primary-light);">Me</span></span>
+              <span class="brand-name">Cure<span style="color: var(--light-mint);">Me</span></span>
             </a>
             <p>
               CureMe – Care That Comes Home. We connect patients and families with certified nursing professionals for convenient, compassionate home-based healthcare.
             </p>
-            <div style="font-size: 0.8125rem; color: #7B9287;">
+            <div style="font-size: 0.8125rem; color: #8EA79A;">
               Tagline: “Professional Care. Right at Your Doorstep.”
             </div>
           </div>
@@ -1548,14 +1552,14 @@
           <div class="footer-col">
             <h5>Contact Details</h5>
             <div class="footer-links">
-              <p style="color: #9AB0A5; font-size: 0.875rem;">Phone: +91 98765 43210</p>
-              <p style="color: #9AB0A5; font-size: 0.875rem;">WhatsApp: +91 98765 43210</p>
-              <p style="color: #9AB0A5; font-size: 0.875rem;">Email: support@cureme.in</p>
-              <p style="color: #9AB0A5; font-size: 0.875rem;">Hours: Mon - Sun (9 AM - 8 PM)</p>
+              <p style="color: #A3B8AC; font-size: 0.88rem;">Phone: +91 98765 43210</p>
+              <p style="color: #A3B8AC; font-size: 0.88rem;">WhatsApp: +91 98765 43210</p>
+              <p style="color: #A3B8AC; font-size: 0.88rem;">Email: support@cureme.in</p>
+              <p style="color: #A3B8AC; font-size: 0.88rem;">Hours: Mon - Sun (9 AM - 8 PM)</p>
             </div>
 
             <h5 style="margin-top: 24px; margin-bottom: 12px;">Accepted Payments</h5>
-            <p style="font-size: 0.8125rem; color: #849A8F; line-height: 1.5;">
+            <p style="font-size: 0.8125rem; color: #8EA79A; line-height: 1.5;">
               Cash on Delivery · UPI (GPay, PhonePe, Paytm) · Cards · Net Banking
             </p>
           </div>
@@ -1590,7 +1594,7 @@
       </a>
 
       <!-- Floating WhatsApp -->
-      <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer" class="floating-btn floating-whatsapp" aria-label="Chat on WhatsApp">
+      <a href="https://wa.me/919876543210?text=Hello%20CureMe%20Team%2C%20I%20would%20like%20to%20inquire%20about%20Home%20Nursing%20services." target="_blank" rel="noopener noreferrer" class="floating-btn floating-whatsapp" aria-label="Chat on WhatsApp">
         <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
           <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
         </svg>
@@ -1619,8 +1623,8 @@
         <button type="button" class="modal-close-btn js-modal-close" aria-label="Close authentication modal">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
-        <h3 style="font-size: 1.35rem; margin-bottom: 6px; text-align: center; color: var(--text-main);">Welcome to CureMe</h3>
-        <p style="font-size: 0.85rem; text-align: center; color: var(--text-muted); margin-bottom: 20px;">Access your family home nursing bookings</p>
+        <h3 style="font-size: 1.35rem; margin-bottom: 6px; text-align: center; color: var(--dark-green);">Welcome to CureMe</h3>
+        <p style="font-size: 0.85rem; text-align: center; color: var(--text-secondary); margin-bottom: 20px;">Access your family home nursing bookings</p>
 
         <!-- Tabs -->
         <div class="modal-tabs">
@@ -1674,8 +1678,8 @@
         <button type="button" class="modal-close-btn js-modal-close" aria-label="Close policy modal">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
-        <h3 id="policyModalTitle" style="font-size: 1.35rem; margin-bottom: 16px; color: var(--text-main);">Policy</h3>
-        <div id="policyModalBody" style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.6;">
+        <h3 id="policyModalTitle" style="font-size: 1.35rem; margin-bottom: 16px; color: var(--dark-green);">Policy</h3>
+        <div id="policyModalBody" style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6;">
           <!-- Dynamically populated -->
         </div>
       </div>
@@ -1684,7 +1688,7 @@
     <!-- Toast Notification Container -->
     <div class="toast-container" id="toastContainer"></div>
 
-    <!-- Vanilla JavaScript Entry Point -->
-    <script type="module" src="/script.js"></script>
+    <!-- Vanilla JavaScript Entry Point: Relative path for GitHub Pages -->
+    <script src="./script.js" defer></script>
   </body>
 </html>
